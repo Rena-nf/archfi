@@ -1,0 +1,113 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Indonesian
+# translator : Corean Fathir (coreanfathir6@gmail.com)
+# notes      : misc text...
+
+locale=en_US.UF-8
+#font=
+
+txtexit="Keluar"
+txtback="Kembali"
+txtignore="Abaikan"
+
+txtselectserver="Pilih server sumber :"
+
+txtmainmenu="Halaman Utama"
+txtlanguage="Bahasa"
+txtsetkeymap="Pilih Tata Letak Keyboard"
+txteditor="Penyunting"
+txtdiskpartmenu="Partisi Disk"
+txtselectpartsmenu="Pilih partisi dan instal"
+txthelp="Bantuan"
+txtchangelog="Catatan Perubahan"
+txtreboot="Mulai Ulang"
+
+txtautoparts="Partisi Otomatis"
+txteditparts="Ubah Partisi"
+
+txtautopartsconfirm="Pilih Perangkat : %1\n\nSemua data akan dihapus ! \n\nLanjutkan ?"
+
+txtautopartclear="Hapus semua data partisi"
+txtautopartcreate="Buat %1 partisi"
+txthybridpartcreate="Tetapkan MBR hybrid"
+txtautopartsettype="Tetapkan %1 tipe partisi"
+
+txtselectdevice="Pilih %1 perangkat :"
+txtselecteddevices="Perangkat yang dipilih :"
+
+txtformatmountmenu="Format dan Pasang"
+txtformatdevices="Format Perangkat"
+txtformatdevice="Format Perangkat"
+txtmount="Pasangkan"
+txtunmount="Lepaskan"
+txtmountdesc="Instal atau Konfigurasi"
+
+txtformatdeviceconfirm="Peringatan, Semua data di perangkat yang dipilih akan dihapus ! \nFormat perangkat ?"
+
+txtselectpartformat="Pilih format partisi untuk %1 :"
+txtformatingpart="Memformat partisi %1 sebagai"
+txtcreateluksdevice="Buat perangkat luks :"
+txtopenluksdevice="Buka perangkat luks :"
+txtluksdevicecreated="Perangkat luks dibuat !"
+
+txtinstallmenu="Halaman Instal"
+
+txtarchinstallmenu="Halaman Instal Arch"
+
+txtselectmirrorsbycountry="Pilih salinan server berdasarkan negara"
+txtselectcountry="Pilih negara"
+txteditmirrorlist="Ubah mirrorlist"
+txtinstallarchlinux="Instal Arch Linux"
+txtinstallarchlinuxkernel="Kernel"
+txtinstallarchlinuxfirmwares="Perangkat lunak"
+txtinstallarchlinuxfilesystems="Sistem file"
+txtinstallarchlinuxcustompackagelist="Daftar paket kustom"
+txtconfigarchlinux="Konfigurasi Arch Linux"
+
+txtsethostname="Tetapkan Nama Komputer"
+txtsetfont="Tetapkan font"
+txtsetlocale="Tetapkan Pengaturan Regional"
+txtsettime="Tetapkan Waktu"
+txtsetrootpassword="Tetapkan kata sandi root"
+
+txthwclock="Jam Perangkat Keras :"
+txthwclockutc="UTC"
+txthwclocklocal="Lokal"
+
+txtbootloader="Pemuat awal"
+txtbootloadermenu="Pilih pemuat awalmu"
+
+txtefibootmgr="efibootmgr dibutuhkan untuk komputer EFI."
+
+txtbootloadergrubmenu="Halaman Instal Grub"
+txtrungrubmakeconfig="Jalankan grub-mkconfig ?"
+txtgrubluksdetected="Enkripsi partisi root !\n\nTambahkan cryptdevice= ke GRUB_CMDLINE_LINUX di /etc/default/grub ?"
+
+txtbootloadersyslinuxmenu="Halaman Instal Syslinux"
+txtsyslinuxaddefibootmgr="Instalasi EFI membutuhkan efibootmgr"
+txtsyslinuxaddgptfdisk="GPT disk membutuhkan gptfdisk"
+txtsyslinuxaddmtools="Bagian FAT boot membutuhkan mtools"
+
+txtbootloadersystemdmenu="Halaman Instal Systemd-boot"
+
+txtbootloaderrefindmenu="Halaman instal rEFInd"
+
+txtextrasmenu="Tambahan"
+
+txtoptional="Opsional"
+txtrecommandeasyinst="Direkomendasikan untuk instalasi yang mudah"
+txtset="Tetapkan %1"
+txtgenerate="Buat %1"
+txtedit="Ubah %1"
+txtinstall="Instal %1"
+txtenable="Aktifkan %1"
+
+txtpressanykey="Tekan tombol apapun untuk melanjutkan."
+
+txtarchdidesc="Skrip instalasi penuh desktop"
+txtinstallarchdi="Arch Linux Desktop Install (archdi) adalah sebuah skrip pendukung yang bisa membantumu untuk menginstal sebuah workstation secara penuh.\n\nAnda bisa jalankan skripnya atau menginstalnya. Pilih di halaman selanjutnya.\n\nArch Linux Desktop Install memiliki dua ketergantungan : wget dan libnewt.\n\npacstrap wget libnewt ?"r
+txtarchdiinstallandlaunch="Instal dan jalankan archdi"
+txtarchdiinstall="Instal archdi"
+txtarchdilaunch="Jalankan archdi"

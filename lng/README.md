@@ -11,7 +11,7 @@ Translations is simple:
 sh archfi -t {githubusername} {branchname}
 ```
 
-As exemple:
+As example:
 
 ```
 sh archfi -t matmoul master
